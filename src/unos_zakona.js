@@ -8,7 +8,6 @@ const emptyZakon = {
   nameError: "",
   fbihError: "",
   opcinaError: ""
-
 }
 
 class UnesiZakonForm extends React.Component {
@@ -37,7 +36,8 @@ class UnesiZakonForm extends React.Component {
       nameError:
         name.length > 3 ? null : 'Zakon treba da sadrži više od 3 slova'
     });
-  }
+  }//provjerava da li ima barem nešto označeno ili fbih ili kanton ili općinu
+  
 
 // indexira zakon
   handleZakonNameChange = idx => evt => {
