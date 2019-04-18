@@ -1,6 +1,6 @@
 import React from "react"
 import ReactDOM from "react-dom"
-
+import ZakonForma from "./unos_zakona"
 
 class FormaUnosaPitanja extends React.Component {
   constructor(props) {
